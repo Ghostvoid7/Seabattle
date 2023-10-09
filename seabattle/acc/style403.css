@@ -1,0 +1,34 @@
+head {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    width: 1024px;
+    height: 768px;
+    background-color: rgba(128, 255, 255, 0.058823529411764705);
+    border: 2px solid black;
+    position: relative;
+    margin-top: 50px;
+}
+
+.span1 {
+    position: absolute;
+    left: 404px;
+    top: 271px;
+    font-size: 130px;
+}
+
+.span2 {
+    position: absolute;
+    left: 427px;
+    top: 428px;
+    font-size: 36px;
+}
+

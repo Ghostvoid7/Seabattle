@@ -1,0 +1,151 @@
+head {
+    margin: 0 auto;
+
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-family: "ComicSansMS", "Comic Sans MS", sans-serif;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/2_2_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%96_%D1%80%D0%BE%D0%B7%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D1%96/u162.svg?pageId=254ec58f-828b-4ca8-820a-2401ef8b4b86"), auto;
+}
+
+.container {
+    height: 768px;
+    width: 1024px;
+    border: 1px solid black;
+    margin-top: 50px;
+    align-items: center;
+    position: relative;
+}
+
+.title {
+    display: inline-block;
+    position: absolute;
+    top: 26px;
+    left: 410px;
+    color: #0000AA;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    margin: 0;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/1_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B5_%D0%BC%D0%B5%D0%BD%D1%8E/u10.svg?pageId=5cc9e038-b477-41af-8248-c1836727d639"), auto;
+}
+
+.img-ship {
+    position: absolute;
+    display: inline-block;
+    left: 353px;
+    top: 24px;
+}
+
+.nickname-container {
+    position: absolute;
+    top: 359px;
+    left: 362px;
+}
+
+.nickname {
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 10px;
+    border-right: 1px solid #0000AA;
+    border-top: 1px solid #0000AA;
+    border-bottom: 1px solid #0000AA;
+    border-left: 1px solid #0000AA;
+    width: 300px;
+    height: 25px;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/1_%D0%B3%D0%BE%D0%BB%D0%BE%D0%B2%D0%BD%D0%B5_%D0%BC%D0%B5%D0%BD%D1%8E/u8.svg?pageId=5cc9e038-b477-41af-8248-c1836727d639"), auto;
+}
+
+.symbol {
+    position: absolute;
+    top: 355px;
+    left: 680px;
+}
+
+.error {
+    position: absolute;
+    top: 393px;
+    left: 368px;
+    font-size: 12px;
+    max-width: 280px;
+}
+
+.tool-tip {
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    border: 1px solid black;
+    background-color: #e8fbc6;
+    font-size: 11px;
+    max-width: 300px;
+    left: 610px;
+    top: 300px;
+    padding: 3px 3px 10px 3px;
+    border-radius: 10px;
+}
+
+.arrow {
+    background-color: #e8fbc6;
+    width: 13px;
+    height: 13px;
+    transform: rotate(45deg);
+    z-index: 2;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    position: absolute;
+    visibility: hidden;
+}
+
+.tool-tip-vis {
+    visibility: visible;
+}
+
+.start-game {
+    border-width: 0;
+    width: 257px;
+    height: 73px;
+    background-color: #0000AA;
+    opacity: 0.3;
+    position: absolute;
+    left: 391px;
+    top: 482px;
+    text-align: center;
+    border-radius: 13px;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/2_%D1%80%D0%BE%D0%B7%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%96%D0%B2/u179.svg?pageId=0d222dba-97fa-419f-b4e4-70003c8acabd"), auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-game p {
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    margin: 0;
+}
+
+.version {
+    border-width: 0;
+    position: absolute;
+    left: 959px;
+    top: 735px;
+    width: 29px;
+    height: 18px;
+    display: flex;
+    color: #0000AA;
+    opacity: 0.8;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/2_%D1%80%D0%BE%D0%B7%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%96%D0%B2/u187.svg?pageId=0d222dba-97fa-419f-b4e4-70003c8acabd"), auto;
+}
+
+.version p {
+    margin: 0;
+}
+
+.ready {
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/2_%D1%80%D0%BE%D0%B7%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D1%8F_%D0%BA%D0%BE%D1%80%D0%B0%D0%B1%D0%BB%D1%96%D0%B2/u179.svg?pageId=0d222dba-97fa-419f-b4e4-70003c8acabd"), auto;
+    opacity: 0.5;
+}
+

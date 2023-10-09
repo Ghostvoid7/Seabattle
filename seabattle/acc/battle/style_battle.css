@@ -1,0 +1,374 @@
+head {
+    margin: auto;
+}
+
+body {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: "ComicSansMS", "Comic Sans MS", sans-serif;
+    color: #0000AA;
+}
+
+.container {
+    width: 1024px;
+    height: 768px;
+    border: 1px solid rgba(1, 111, 160, 1);
+    background-color: rgba(128, 255, 255, 0.058823529411764705);
+    position: relative;
+    margin-top: 50px;
+}
+
+.arrow {
+    position: absolute;
+    left: 8px;
+    top: 1px;
+    transform: rotate(270deg);
+}
+
+.img-ship {
+    position: absolute;
+    left: 360px;
+    top: 11px;
+}
+
+.title {
+    position: absolute;
+    font-style: normal;
+    font-size: 36px;
+    left: 430px;
+    top: 11px;
+    margin: 0;
+}
+
+.cross {
+    position: absolute;
+    left: 999px;
+    top: 7px;
+}
+
+.img-time {
+    position: absolute;
+    left: 450px;
+    top: 78px;
+}
+
+.text-time {
+    position: absolute;
+    left: 477px;
+    top: 82px;
+    font-size: 15px;
+}
+
+.time {
+    position: absolute;
+    left: 472px;
+    top: 105px;
+    font-size: 18px;
+}
+
+.text1-skip-move {
+    position: absolute;
+    display: inline-block;
+    left: 143px;
+    top: 165px;
+    width: 79px;
+    height: 54px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.text2-skip-move {
+    position: absolute;
+    display: inline-block;
+    left: 751px;
+    top: 165px;
+    width: 79px;
+    height: 54px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.skip-move1 {
+    position: absolute;
+    left: 167px;
+    top: 221px;
+}
+
+.user1-skip-move {
+    position: absolute;
+    top: 224px;
+    left: 178px;
+    font-size: 20px;
+    color: #910012;
+}
+
+.skip-move2 {
+    position: absolute;
+    left: 774px;
+    top: 221px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.user2-skip-move {
+    position: absolute;
+    top: 224px;
+    left: 785px;
+    font-size: 20px;
+    color: #910012;
+}
+
+.move {
+    position: absolute;
+    left: 319px;
+    top: 235px;
+    font-size: 13px;
+}
+
+.container-user-login {
+    position: absolute;
+    left: 238px;
+    top: 260px;
+    width: 184px;
+    height: 29px;
+    background-color: rgba(149, 242, 4, 0.27);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.user-login {
+    margin: 0;
+    font-size: 13px;
+}
+
+.container-opponent-login {
+    position: absolute;
+    left: 589px;
+    top: 260px;
+    width: 184px;
+    height: 29px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1px;
+}
+
+.opponent-login {
+    margin: 0;
+    font-size: 13px;
+}
+
+.coordinate {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.user-X {
+    position: absolute;
+    top: 304px;
+}
+.user-A {
+    left: 563px;
+}
+.user-B {
+    left: 589px;
+}
+.user-C {
+    left: 615px;
+}
+.user-D {
+    left: 641px;
+}
+.user-E {
+    left: 667px;
+}
+.user-F {
+    left: 693px;
+}
+.user-G {
+    left: 717px;
+}
+.user-H {
+    left: 745px;
+}
+.user-I {
+    left: 771px;
+}
+.user-J {
+    left: 790px;
+}
+
+.user-Y {
+    position: absolute;
+    left: 532px;
+}
+.user-Y-1 {
+    top: 339px;
+}
+.user-Y-2 {
+    top: 364px;
+}
+.user-Y-3 {
+    top: 388px;
+}
+.user-Y-4 {
+    top: 413px;
+}
+.user-Y-5 {
+    top: 437px;
+}
+.user-Y-6 {
+    top: 462px;
+}
+.user-Y-7 {
+    top: 486px;
+}
+.user-Y-8 {
+    top: 511px;
+}
+.user-Y-9 {
+    top: 535px;
+}
+.user-Y-10 {
+    left: 522px;
+    top: 560px;
+}
+
+.user-battle-field {
+    position: absolute;
+    left: 205px;
+    top: 332px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(128, 255, 255, 0.19);
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+}
+
+.ceil {
+    border-top: 1px solid #016fa0;
+    border-left: 1px solid #016fa0;
+    width: 24px;
+    height: 24px;
+}
+
+.ceil-10 {
+    border-right: 1px solid #016fa0;
+    width: 23px;
+}
+
+.last-ceil {
+    border-bottom: 1px solid #016fa0;
+    height: 23px;
+}
+
+.opponent-X {
+    position: absolute;
+    top: 303px;
+}
+.opponent-A {
+    left: 210px;
+}
+.opponent-B {
+    left: 236px;
+}
+.opponent-C {
+    left: 262px;
+}
+.opponent-D {
+    left: 288px;
+}
+.opponent-E {
+    left: 314px;
+}
+.opponent-F {
+    left: 340px;
+}
+.opponent-G {
+    left: 364px;
+}
+.opponent-H {
+    left: 392px;
+}
+.opponent-I {
+    left: 418px;
+}
+.opponent-J {
+    left: 437px;
+}
+
+.opponent-Y {
+    position: absolute;
+    left: 178px;
+}
+.opponent-Y-1 {
+    top: 338px;
+}
+.opponent-Y-2 {
+    top: 363px;
+}
+.opponent-Y-3 {
+    top: 387px;
+}
+.opponent-Y-4 {
+    top: 412px;
+}
+.opponent-Y-5 {
+    top: 436px;
+}
+.opponent-Y-6 {
+    top: 461px;
+}
+.opponent-Y-7 {
+    top: 485px;
+}
+.opponent-Y-8 {
+    top: 510px;
+}
+.opponent-Y-9 {
+    top: 534px;
+}
+.opponent-Y-10 {
+    left: 167px;
+    top: 559px;
+}
+
+.opponent-battle-field {
+    position: absolute;
+    left: 559px;
+    top: 332px;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(128, 255, 255, 0.19);
+    display: grid;
+    grid-template-columns: 25px 25px 25px 25px 25px 25px 25px 25px 25px 25px;
+    cursor: url("https://files.axshare.com/gsc/2AGZYF/88/23/38/882338d60123458087e0059e88a96f0b/images/3_%D0%B1%D1%96%D0%B9/u322.svg?pageId=24ccf788-4b6d-4a2d-83de-525ad6b4cc8a"), auto;
+}
+
+
+
+
+
+
+
+
+
+.version {
+    border-width: 0;
+    position: absolute;
+    left: 959px;
+    top: 735px;
+    width: 29px;
+    height: 18px;
+    display: flex;
+    opacity: 0.8;
+}
+
+.version p {
+    margin: 0;
+}
